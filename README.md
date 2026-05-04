@@ -11,7 +11,7 @@ This project is an optimization solution developed in C for two fundamental prob
     * **2-Opt Local Search:** Implements an improvement technique that reduces total distance by reordering nodes within the generated routes.
     * **Nearest Neighbor:** Produces rapid initial solutions for quick analysis.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **C Programming Language:** High-performance core logic and memory management.
 * **Heuristic Optimization:** Implementation of Savings and 2-opt algorithms.
