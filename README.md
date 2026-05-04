@@ -11,12 +11,6 @@ This project is an optimization solution developed in C for two fundamental prob
     * **2-Opt Local Search:** Implements an improvement technique that reduces total distance by reordering nodes within the generated routes.
     * **Nearest Neighbor:** Produces rapid initial solutions for quick analysis.
 
-## Technologies Used
-
-* **C Programming Language:** High-performance core logic and memory management.
-* **Heuristic Optimization:** Implementation of Savings and 2-opt algorithms.
-* **File I/O:** Structured data processing from external test sets.
-
 ## File Structure
 
 * `main.c`: The primary source code containing distance matrix generation, route merging, and optimization logic.
@@ -33,7 +27,8 @@ Bu proje, lojistik ve operasyonel araştırma alanındaki iki temel problem olan
 
 * **Çoklu Araç Desteği (VRP):** Birden fazla aracın kapasite kısıtlarını dikkate alarak rota planlaması yapar.
 * **Tek Araç Desteği (TSP):** Eğer tek bir araç varsa, tüm noktaları ziyaret eden en kısa kapalı rotayı hesaplar.
-* **Akıllı Algoritmalar:** * **Clarke-Wright Savings Algoritması:** Başlangıç rotalarını oluşturmak için verimli bir tasarruf mantığı kullanır.
+* **Akıllı Algoritmalar:**
+    * **Clarke-Wright Savings Algoritması:** Başlangıç rotalarını oluşturmak için verimli bir tasarruf mantığı kullanır.
     * **2-Opt Yerel Arama:** Oluşturulan rotalardaki düğüm sıralamasını değiştirerek mesafeyi daha da kısaltan bir iyileştirme tekniği uygular.
     * **En Yakın Komşu (Nearest Neighbor):** Hızlı başlangıç çözümleri üretir.
 
